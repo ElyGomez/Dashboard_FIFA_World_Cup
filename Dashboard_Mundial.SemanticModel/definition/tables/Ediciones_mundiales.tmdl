@@ -1,0 +1,80 @@
+table Ediciones_mundiales
+	lineageTag: 3d29cf9b-ce5d-491d-a064-396adb8b2329
+
+	column Año
+		dataType: int64
+		formatString: 0
+		lineageTag: 728f9485-18b3-48e7-9ce0-ca8e628964a8
+		summarizeBy: none
+		sourceColumn: Año
+
+		annotation SummarizationSetBy = Automatic
+
+	column Anfitrión
+		dataType: string
+		lineageTag: d74d6ebb-1c82-45b5-9263-e9f0c77942dc
+		summarizeBy: none
+		sourceColumn: Anfitrión
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cant_Equipos
+		dataType: int64
+		formatString: 0
+		lineageTag: a4949d26-32ea-41dc-914c-a94d17218b85
+		summarizeBy: none
+		sourceColumn: Cant_Equipos
+
+		annotation SummarizationSetBy = Automatic
+
+	column Primer_Lugar
+		dataType: string
+		lineageTag: 2e743f9c-9921-4622-a9e5-ef5d872a0254
+		summarizeBy: none
+		sourceColumn: Primer_Lugar
+
+		annotation SummarizationSetBy = Automatic
+
+	column Segundo_Lugar
+		dataType: string
+		lineageTag: 5b7110e0-7ecd-4998-9445-965be1cdb69c
+		summarizeBy: none
+		sourceColumn: Segundo_Lugar
+
+		annotation SummarizationSetBy = Automatic
+
+	column Goleador
+		dataType: string
+		lineageTag: edaae5de-f0e1-4b29-89fd-421431512427
+		summarizeBy: none
+		sourceColumn: Goleador
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cargar_Partido
+		dataType: int64
+		formatString: 0
+		lineageTag: 0949a5e0-a848-4c01-929a-838184565cba
+		summarizeBy: none
+		sourceColumn: Cargar_Partido
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Ediciones_mundiales = m
+		mode: import
+		source =
+				let
+				  Origen = Csv.Document(File.Contents("D:\OneDrive\Desktop\Dashborad Mundial Futbol\dataset\world_cup.csv"), [Delimiter = ",", Columns = 9, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				  #"Tipo de columna cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos", {{"Year", Int64.Type}, {"Host", type text}, {"Teams", Int64.Type}, {"Champion", type text}, {"Runner-Up", type text}, {"TopScorrer", type text}, {"Attendance", Int64.Type}, {"AttendanceAvg", Int64.Type}, {"Matches", Int64.Type}}, "es"),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Tipo de columna cambiado",{"Attendance", "AttendanceAvg"}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Columnas quitadas",{{"Year", "Año"}, {"Host", "Anfitrión"}, {"Teams", "Cant_Equipos"}, {"Champion", "Primer_Lugar"}, {"Runner-Up", "Segundo_Lugar"}, {"TopScorrer", "Goleador"}, {"Matches", "Cargar_Partido"}}),
+				    #"Valor reemplazado" = Table.ReplaceValue(#"Columnas con nombre cambiado","West Germany","Germany",Replacer.ReplaceText,{"Primer_Lugar"}),
+				    #"Valor reemplazado1" = Table.ReplaceValue(#"Valor reemplazado","West Germany","Germany",Replacer.ReplaceText,{"Segundo_Lugar"})
+				in
+				  #"Valor reemplazado1"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

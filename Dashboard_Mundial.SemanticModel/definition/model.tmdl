@@ -1,0 +1,23 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-ES
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Partidos_1930_2022","Ediciones_mundiales","Medidas"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Partidos_1930_2022
+ref table DateTableTemplate_f09936b9-ce8c-4f7c-b5b0-e269a867c49a
+ref table LocalDateTable_4b34d9cd-cecb-42f3-a8b2-e3724e0d0907
+ref table Ediciones_mundiales
+ref table Medidas
+
+ref cultureInfo es-ES
+

@@ -1,0 +1,1876 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "partidos_1930_2022": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "partidos 1930 2022": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "partido 1930 2022": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Partidos_1930_2022": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.equipo_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "ConceptualProperty": "Equipo_1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "equipo 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Equipo_1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.equipo_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "ConceptualProperty": "Equipo_2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "equipo 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Equipo_2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.goles_equipo_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "ConceptualProperty": "Goles_Equipo_1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "goles equipo 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gole equipo 1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Goles_Equipo_1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.goles_equipo_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "ConceptualProperty": "Goles_Equipo_2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "goles equipo 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gole equipo 2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Goles_Equipo_2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "ConceptualProperty": "Fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "partidos_1930_2022.fecha.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.fecha.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.fecha.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.fecha.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.fecha.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partidos_1930_2022",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Ediciones_mundiales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ediciones mundiale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "edicione mundiale": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Ediciones_mundiales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Ediciones_mundiales",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale.anfitrión": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Ediciones_mundiales",
+			          "ConceptualProperty": "Anfitrión"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anfitrión": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale.cant_equipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Ediciones_mundiales",
+			          "ConceptualProperty": "Cant_Equipos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cant equipo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Cant_Equipos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale.primer_lugar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Ediciones_mundiales",
+			          "ConceptualProperty": "Primer_Lugar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "primer lugar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Primer_Lugar": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "lugar": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Selección": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Campeón": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale.segundo_lugar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Ediciones_mundiales",
+			          "ConceptualProperty": "Segundo_Lugar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "segundo lugar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Segundo_Lugar": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "lugar": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale.goleador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Ediciones_mundiales",
+			          "ConceptualProperty": "Goleador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "goleador": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale.cargar_partido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Ediciones_mundiales",
+			          "ConceptualProperty": "Cargar_Partido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cargar partido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Cargar_Partido": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_01__total_ediciones": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "01. Total ediciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "01. total ediciones": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "01. aggregate edicione": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "01. overall edicione": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Total ediciones": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Campeonatos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_02__total_de_partidos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "02. Total de partidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "02. total de partidos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "02. aggregate de partido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "02. overall de partido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "Total de partidos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_03__total_goles": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "03. Total goles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "03. total goles": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "03. aggregate gole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "03. overall gole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Total goles": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_04__promedio_de_goles_por_edición": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "04. Promedio de goles por edición"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "04. promedio de goles por edición": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Promedio goles por edición": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_05__promedio_goles_por_partido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "05. Promedio goles por partido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "05. promedio goles por partido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Promedio goles por partido": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_06__último_anfitrión": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "06. Último anfitrión"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "06. último anfitrión": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Edición": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Último anfitrión": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Última edición": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_07__ultimo_campeón": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "07. Ultimo campeón"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "07. ultimo campeón": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Campeón": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Ultimo campeón": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "partidos_1930_2022_fecha_me_has_partidos_1930_2022_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022.fecha.me": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.me"
+			          }
+			        },
+			        "partidos_1930_2022.fecha.día": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.día"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_fecha_trimestre_has_partidos_1930_2022_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.trimestre"
+			          }
+			        },
+			        "partidos_1930_2022.fecha.me": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_fecha_año_has_partidos_1930_2022_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022.fecha.año": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.año"
+			          }
+			        },
+			        "partidos_1930_2022.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.año"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_fecha_jerarquía_de_fecha_has_partidos_1930_2022_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "partidos_1930_2022.fecha.día": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_fecha_jerarquía_de_fecha_has_partidos_1930_2022_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "partidos_1930_2022.fecha.me": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_fecha_jerarquía_de_fecha_has_partidos_1930_2022_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "partidos_1930_2022.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_fecha_jerarquía_de_fecha_has_partidos_1930_2022_fecha_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "partidos_1930_2022.fecha.año": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_fecha_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022.fecha": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha"
+			          }
+			        },
+			        "partidos_1930_2022.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022.fecha"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_ediciones_mundiale": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "ediciones_mundiale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_ediciones_mundiales"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_partidos_1930_2022"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_medida_entity_07__ultimo_campeón": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "medida.entity_07__ultimo_campeón": {
+			          "Target": {
+			            "Entity": "medida.entity_07__ultimo_campeón"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_07__ultimo_campeón"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_07__ultimo_campeón"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_medida_entity_06__último_anfitrión": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "medida.entity_06__último_anfitrión": {
+			          "Target": {
+			            "Entity": "medida.entity_06__último_anfitrión"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_06__último_anfitrión"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_06__último_anfitrión"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_medida_entity_05__promedio_goles_por_partido": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "medida.entity_05__promedio_goles_por_partido": {
+			          "Target": {
+			            "Entity": "medida.entity_05__promedio_goles_por_partido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_05__promedio_goles_por_partido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_05__promedio_goles_por_partido"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_medida_entity_04__promedio_de_goles_por_edición": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "medida.entity_04__promedio_de_goles_por_edición": {
+			          "Target": {
+			            "Entity": "medida.entity_04__promedio_de_goles_por_edición"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_04__promedio_de_goles_por_edición"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_04__promedio_de_goles_por_edición"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_medida_entity_04__promedio_de_goles_por_edición": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "medida.entity_04__promedio_de_goles_por_edición": {
+			          "Target": {
+			            "Entity": "medida.entity_04__promedio_de_goles_por_edición"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_04__promedio_de_goles_por_edición"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_04__promedio_de_goles_por_edición"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_medida_entity_03__total_goles": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "medida.entity_03__total_goles": {
+			          "Target": {
+			            "Entity": "medida.entity_03__total_goles"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_03__total_goles"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_03__total_goles"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_medida_entity_02__total_de_partidos": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "medida.entity_02__total_de_partidos": {
+			          "Target": {
+			            "Entity": "medida.entity_02__total_de_partidos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_02__total_de_partidos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_02__total_de_partidos"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_medida_entity_01__total_ediciones": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "medida.entity_01__total_ediciones": {
+			          "Target": {
+			            "Entity": "medida.entity_01__total_ediciones"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_01__total_ediciones"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_01__total_ediciones"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_cargar_partido": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "ediciones_mundiale.cargar_partido": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale.cargar_partido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "ediciones_mundiale.cargar_partido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_cargar_partidos"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_goleador": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "ediciones_mundiale.goleador": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale.goleador"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "ediciones_mundiale.goleador"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_goleadors"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_segundo_lugar": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "ediciones_mundiale.segundo_lugar": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale.segundo_lugar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "ediciones_mundiale.segundo_lugar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_segundo_lugar"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_primer_lugar": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "ediciones_mundiale.primer_lugar": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale.primer_lugar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "ediciones_mundiale.primer_lugar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_primer_lugar"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_cant_equipo": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "ediciones_mundiale.cant_equipo": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale.cant_equipo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "ediciones_mundiale.cant_equipo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_cant_equipos"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_anfitrión": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "ediciones_mundiale.anfitrión": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale.anfitrión"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "ediciones_mundiale.anfitrión"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_anfitrións"
+			        }
+			      ]
+			    },
+			    "ediciones_mundiale_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Ediciones_mundiales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ediciones_mundiale": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale"
+			          }
+			        },
+			        "ediciones_mundiale.año": {
+			          "Target": {
+			            "Entity": "ediciones_mundiale.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ediciones_mundiale"
+			            },
+			            "Object": {
+			              "Role": "ediciones_mundiale.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ediciones_mundiales_have_años"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "partidos_1930_2022.fecha": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_fechas"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_goles_equipo_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "partidos_1930_2022.goles_equipo_2": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.goles_equipo_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.goles_equipo_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_goles_equipo_2"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_goles_equipo_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "partidos_1930_2022.goles_equipo_1": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.goles_equipo_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.goles_equipo_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_goles_equipo_1"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_equipo_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "partidos_1930_2022.equipo_2": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.equipo_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.equipo_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_equipo_2"
+			        }
+			      ]
+			    },
+			    "partidos_1930_2022_has_equipo_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Partidos_1930_2022"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "partidos_1930_2022": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022"
+			          }
+			        },
+			        "partidos_1930_2022.equipo_1": {
+			          "Target": {
+			            "Entity": "partidos_1930_2022.equipo_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "partidos_1930_2022"
+			            },
+			            "Object": {
+			              "Role": "partidos_1930_2022.equipo_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "partidos_1930_2022_have_equipo_1"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

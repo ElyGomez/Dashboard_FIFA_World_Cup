@@ -1,0 +1,9 @@
+relationship ee12dadf-3018-42b5-befb-0179b7b68e60
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Partidos_1930_2022.Fecha
+	toColumn: LocalDateTable_4b34d9cd-cecb-42f3-a8b2-e3724e0d0907.Date
+
+relationship AutoDetected_4735c586-b7db-416e-a20e-5e080f318082
+	fromColumn: Partidos_1930_2022.Año
+	toColumn: Ediciones_mundiales.Año
+

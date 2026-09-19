@@ -1,0 +1,125 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "Fluent2-CY26SU08",
+      "reportVersionAtImport": {
+        "visual": "2.12.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Custom8060280810964172.json",
+      "reportVersionAtImport": {
+        "visual": "2.12.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "Fluent2-CY26SU08",
+          "path": "BaseThemes/Fluent2-CY26SU08.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "1_football-award9596323327053132.png",
+          "path": "1_football-award9596323327053132.png",
+          "type": "Image"
+        },
+        {
+          "name": "2_tv15941334880042057.png",
+          "path": "2_tv15941334880042057.png",
+          "type": "Image"
+        },
+        {
+          "name": "3_goal9399754623566912.png",
+          "path": "3_goal9399754623566912.png",
+          "type": "Image"
+        },
+        {
+          "name": "4_soccer-player4157577091305237.png",
+          "path": "4_soccer-player4157577091305237.png",
+          "type": "Image"
+        },
+        {
+          "name": "5_football8271401187502951.png",
+          "path": "5_football8271401187502951.png",
+          "type": "Image"
+        },
+        {
+          "name": "6_stadium644185984050923.png",
+          "path": "6_stadium644185984050923.png",
+          "type": "Image"
+        },
+        {
+          "name": "7_tournament5139792800107754.png",
+          "path": "7_tournament5139792800107754.png",
+          "type": "Image"
+        },
+        {
+          "name": "Custom8060280810964172.json",
+          "path": "Custom8060280810964172.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "Fondo_1625685760959167.png",
+          "path": "Fondo_1625685760959167.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true,
+    "customMemoryLimit": "1048576",
+    "customTimeoutLimit": "225"
+  }
+}

@@ -1,0 +1,62 @@
+table Medidas
+	lineageTag: 38c9ea85-1cb2-4365-b7d7-cf242af18a54
+
+	measure '01. Total ediciones' = COUNTROWS(Ediciones_mundiales)
+		formatString: 0
+		lineageTag: 2b283b54-4d26-43f3-8446-312b5512ff2f
+
+	measure '02. Total de partidos' = COUNTROWS(Partidos_1930_2022)
+		formatString: 0
+		lineageTag: 4763e158-d88e-44e5-b233-c43d69289e02
+
+	measure '03. Total goles' = ```
+			SUMX(Partidos_1930_2022, Partidos_1930_2022[Goles_Equipo_1]+Partidos_1930_2022[Goles_Equipo_2]) 
+			```
+		formatString: 0
+		lineageTag: 7c34a84b-8e84-4129-8950-b9da8ec85cd0
+
+	measure '04. Promedio de goles por edición' = DIVIDE([03. Total goles], [01. Total ediciones])
+		lineageTag: 4b223517-52f9-46fc-b86e-58a73c5adca4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '05. Promedio goles por partido' = DIVIDE([03. Total goles], [02. Total de partidos])
+		lineageTag: 1dac4cee-ea18-4d99-8a68-274dd891e474
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '06. Último anfitrión' = ```
+			//último año - último anfitrión. 2022 - Qatar 
+			
+			VAR _UltimoAnio = MAX(Ediciones_mundiales[Año]) 
+			
+			VAR _UltimoAnfitrion = 
+			    CALCULATE(SELECTEDVALUE(Ediciones_mundiales[Anfitrión]), Ediciones_mundiales[Año] = _UltimoAnio) 
+			
+			RETURN _UltimoAnio & " - " & _UltimoAnfitrion
+			```
+		lineageTag: c9d3678d-6150-47df-a814-3e434d1be0c1
+
+	measure '07. Ultimo campeón' =
+			
+			
+			VAR _UltimoAnio = MAX(Ediciones_mundiales[Año])
+			
+			VAR _UltimoGanador = CALCULATE(SELECTEDVALUE(Ediciones_mundiales[Primer_Lugar]), Ediciones_mundiales[Año] = _UltimoAnio)
+			
+			RETURN _UltimoGanador
+		lineageTag: 3421da86-ddf4-41a8-900e-df81aea6881f
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				  Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Columna 1" = _t]),
+				    #"Columnas quitadas" = Table.RemoveColumns(Origen,{"Columna 1"})
+				in
+				  #"Columnas quitadas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
